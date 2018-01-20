@@ -169,7 +169,7 @@ html,body{
 	background-image:linear-gradient(rgba(63,62,122,.25), rgba(63,62,122,.25)), url("stuff/bg2.jpg");
 	background-size:cover;
 	position:relative;
-	z-index: -1;
+	z-index: 0;
 }
 
 .left-side{
@@ -206,8 +206,7 @@ html,body{
 	margin:10px 50px 30px 50px;
 }
 .spotify-player{
-	position:relative;
-	width:43%;
-	margin:auto;
 	z-index:8;
+	text-align:center;
 }
+
