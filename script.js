@@ -21,6 +21,7 @@ function four() {
 }
 
 //script for buttons
+four();
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {

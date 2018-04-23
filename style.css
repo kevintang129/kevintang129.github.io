@@ -218,6 +218,7 @@ html,body{
 /*photography page*/
 
 .header{
+	margin: 50px 0 0 0;
 	color:white;
 	font-family:'Raleway', "sans-serif";
 	text-align: center;
