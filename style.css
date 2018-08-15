@@ -48,6 +48,7 @@ html,body{
 	width:100%;
 	height:100%;
 	position:fixed;
+	overflow-y: scroll
 
 }
 .main-pic {
@@ -68,7 +69,9 @@ html,body{
 }
 .title {
 	font-family: 'Raleway', "sans-serif";
-	font-size:7em;
+/*	font-size:7em;
+*/	
+	font-size:8vw;
 	font-weight:300;
 	text-align: center;
 	position:fixed;
@@ -85,14 +88,19 @@ html,body{
 	color:white;
 	font-weight:300;
 	position:relative;
-	font-size:2em;
+/*	font-size:2em;
+*/	
+	font-size:3.5vw;
 	top:49%;
 	left:50%;
 	transform: translate(-50%, -50%);
 }
 
 .invite{
-	font-size:1em;
+/*	font-size:1em;
+
+*/
+	font-size:1.5vw;
 }
 
 .media-buttons-area{
@@ -101,7 +109,9 @@ html,body{
 	top:55%;
 	left:50%;
 	transform: translate(-50%, -50%);
-	font-size: 2em
+/*	font-size: 2em
+*/
+	font-size:2.5vw;
 }
 
 .fa{
@@ -174,6 +184,7 @@ html,body{
 	background-size:cover;
 	position:fixed;
 	z-index: 0;
+	overflow-y: scroll
 }
 
 .left-side{
@@ -195,7 +206,9 @@ html,body{
 
 .about-title{
 	font-family: 'Raleway', "sans-serif";
-	font-size:5em;
+/*	font-size:5em;
+*/	
+	font-size:6vw;
 	font-weight:300;
 	text-align:center;
 	color: white;
@@ -205,7 +218,9 @@ html,body{
 	font-family:'Raleway', "sans-serif";
 	text-align:center;
 	color:white;
-	font-size:1.3em;
+/*	font-size:1.3em;
+*/	
+	font-size:1.7vw;
 	z-index:3;
 	margin:10px 50px 30px 50px;
 }
