@@ -1,0 +1,36 @@
+---
+layout: post
+title:  to the college class of 2020
+date:   2020-05-17 16:40:16
+description: What it's like to graduate in COVID-19
+---
+Hi! Welcome to my blog. I don't really know what exactly I'm gonna put here, but it's mostly a way to give my mind an area to just unload stuff. Anyway, here's a bunch of random formatting so I can reference this markdown later. 
+
+#### Hipster list
+<ul>
+	<li>brunch</li>
+	<li>fixie</li>
+	<li>raybans</li>
+	<li>messenger bag</li>
+</ul>
+
+<hr>
+<br/>
+Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar. 
+
+<br/>
+
+<div class="img_row">
+	<img class="col three" src="/img/9.jpg">
+</div>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
+</div>
+<div class="col three caption">
+	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
+</div>
+<div class="img_row">
+	<img class="col two" src="/img/8.jpg">
+	<img class="col one" src="/img/10.jpg">
+</div>
+<br/>
