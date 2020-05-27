@@ -2,7 +2,7 @@
 layout: post
 title:  welcome
 date:   2019-05-21 16:40:16
-description: My first post
+description: my first post
 ---
 Hi! Welcome to my blog. I don't really know what exactly I'm gonna put here, but it's mostly a way to give my mind an area to just unload stuff. Anyway, here's a bunch of random formatting so I can reference this markdown later. 
 
@@ -25,17 +25,17 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="/img/9.jpg">
+	<img class="col three" src="/img/sf.jpg">
 </div>
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
+	<img class="col three" src="{{ site.baseurl }}/img/sf.jpg">
 </div>
 <div class="col three caption">
 	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
 </div>
 <div class="img_row">
-	<img class="col two" src="/img/8.jpg">
-	<img class="col one" src="/img/10.jpg">
+	<img class="col two" src="/img/sf.jpg">
+	<img class="col one" src="/img/friends.JPG">
 </div>
 <br/>
 

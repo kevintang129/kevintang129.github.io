@@ -4,7 +4,7 @@ title: Supernovae Research
 description: spectra data pipeline
 img: /img/sn.jpg
 ---
-Starting in the Fall of 2017, I joined the Filippenko Group under Alex Filippenko in his research of Type Ia supernovae.
+Starting in the Fall of 2017, I joined the Filippenko Group under Alex Filippenko in his research of Type Ia supernovae. I worked closely with Weikang Zheng in developing software that could easily find the SiII feature within supernovae spectra. 
 
 <a href="https://arxiv.org/pdf/1612.02725.pdf" target="_blank">Supernova Background</a>  
 <a href="https://github.com/kevintang129/sn_spectra_public" target="_blank">Code</a>
