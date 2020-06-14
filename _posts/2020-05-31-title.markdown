@@ -1,0 +1,32 @@
+---
+layout: post
+title:  Mac typing shortcuts
+date:   2020-05-17 16:40:16
+description: I need to learn these shortcuts so I'm typing them out
+---
+
+### Text Navigation and Selection
+
+* Jump to beginning of a line – Command + Left Arrow
+* Jump to end of a line – Command + Right Arrow
+* Jump to beginning of current word – Option + Right Arrow
+* Jump to end of current word – Option + Right Arrow
+* Jump to beginning of all text – Command + Up Arrow
+* Jump to end of all text – Command + Down Arrow
+
+For text selection rather than navigation, simply do Shift+Navigation Shortcut.
+
+### Terminal Text Shortcuts
+
+* Go to previous/next command line prompt - Command + Up/Down Arrow
+* Reposition insertion point with mouse - Press and hold Option key while moving mouse to new insertion point
+* Move insertion point to beginning of line - Control + A
+* Move insertion point to end of line - Control + E
+* Delete to beginning of line - Control + U
+* Delete to the end of line - Control + K
+* Delete backward to beginning of word - Control + W
+* Forward delete - Fn + Delete
+* Transpose characters - Control + T
+* Select file path/URL - Shift + Command + double-click
+* Jump to selected text - Command + J
+
