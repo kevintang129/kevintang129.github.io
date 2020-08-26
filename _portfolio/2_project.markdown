@@ -42,7 +42,7 @@ img: /img/classes.jpg
 * <a href= "http://w.astro.berkeley.edu/~echiang/planetastro/planetastro.html" target="_blank">Astro 162 - Planetary Astrophysics</a>
 * <a href= "https://cs162.eecs.berkeley.edu/" target="_blank">CS 162 - Operating Systems and System Programming</a>
 
-### Spring 20202
+### Spring 2020
 * Astro 161 - Relativistic Astrophysics and Cosmology
 * <a href= "https://cs161.org/" target="_blank">CS 161 - Computer Security</a>
 * <a href= "http://cs168.io/" target="_blank">CS 168 - Introduction to the Internet: Architecture and Protocols</a>
