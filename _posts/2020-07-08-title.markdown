@@ -1,0 +1,1281 @@
+---
+layout: post
+title:  analyzing my taste in video games
+date:   2020-07-08 03:16:16
+description: what too much time at home leads to
+---
+
+After playing anumber of video games during my first few weeks of quarantine, I thought it would be interesting to analyze my personal history of video games. I decided to list and rate every game I had played in my life in this <a href="https://docs.google.com/spreadsheets/d/1RyigfinWUSeqTubq06PM_RSjjx6EWm6SaMEkRqfz7Ao/edit?usp=sharing" target="blank">spreadsheet.</a> Along with the title and rating I also included some other data to do some additional analysis. We can take a look at what the raw data looks like here.
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>game</th>
+      <th>genre</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>series</th>
+      <th>developer</th>
+      <th>tier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Super Mario 64</td>
+      <td>3D Platformer</td>
+      <td>N64</td>
+      <td>1996</td>
+      <td>Super Mario</td>
+      <td>Nintendo</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>007: Goldeneye</td>
+      <td>FPS</td>
+      <td>N64</td>
+      <td>1997</td>
+      <td>7</td>
+      <td>Rare</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Mario Kart 64</td>
+      <td>Racing</td>
+      <td>N64</td>
+      <td>1997</td>
+      <td>Mario Kart</td>
+      <td>Nintendo</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>LoZ: Ocarina of Time</td>
+      <td>Action Adventure</td>
+      <td>N64</td>
+      <td>1998</td>
+      <td>Legend of Zelda</td>
+      <td>Nintendo</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Super Smash Bros</td>
+      <td>Platform Fighter</td>
+      <td>N64</td>
+      <td>1999</td>
+      <td>Smash Bros</td>
+      <td>HAL Laboratory</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<br/>
+
+# Genre
+
+
+    Action Adventure            24
+    FPS                         15
+    Visual Novel                11
+    Tactical RPG                 9
+    RPG                          9
+    Stealth Action Adventure     8
+    Action Platformer            8
+    Action RPG                   7
+    3D Platformer                7
+    Racing                       6
+    Platform Fighter             5
+    Strategy                     3
+    Rhythm                       3
+    Puzzle Platformer            3
+    2D Platformer                3
+    Beat Em Up                   1
+    Roguelike                    1
+    Sports                       1
+    Hack and Slash               1
+    RTS                          1
+    Sandbox                      1
+
+In order to label each game's genre, I had to make some decisions on what genre best described the game, as some games could be considered multiple genres. Additionally, the **Action Adventure** genre is normally an extremely broad genre so I used some additional descriptors to create more specific genres. I will define and give examples of some of these additional genres to further clarify.
+
+* **Action Adventure** - Games that don't fall under the more specific action adventure genres. Series in this genre include Legend of Zelda, Uncharted, GTA/RDR.
+* **Tactical RPG** - basically games like Fire Emblem or Advance Wars.
+* **Stealth Action Adventure** - Action adventure with an emphasis on stealth. Series like Batman Arkham and Assassin's Creed.
+* **Action Platformer** - Platformers with an emphasis on combat. Series like Ratchet and Clank and Jak and Daxter.
+* **Action RPG** - Action Adventure with an emphasis on RPG elements like leveling, perk system, armor. Series like Elder Scrolls, Fallout.
+* **Platform Figher** - Smash Bros basically.
+* **Puzzle Platformer** - Platforming with an emphasis on puzzle solving. Series like Portal and LittleBigPlanet.
+
+
+For the bar chart, I grouped any genre with a count less than 4 in the **Other** categtory. 
+
+
+<img class="col three" src="/img/graphs/output_4_1.png">
+
+# Platform
+
+    PS3       30
+    GC        17
+    PS2       13
+    PC        13
+    DS        12
+    Wii       10
+    N64        8
+    PS4        7
+    GBA        6
+    3DS        4
+    Switch     4
+    WiiU       3
+
+<img class="col three" src="/img/graphs/output_7_1.png">
+
+My highest frequency consoles generally line up with when I was playing games the most
+# Release Date
+
+<img class="col three" src="/img/graphs/output_10_1.png">
+
+<img class="col three" src="/img/graphs/output_11_1.png">
+
+
+# Series
+    Fire Emblem                9
+    Legend of Zelda            8
+    Pokemon Stadium            5
+    Pokemon                    5
+    Ace Attorney               5
+    Super Mario                5
+    Assassin's Creed           5
+    Uncharted                  4
+    Mario Kart                 4
+    Ratchet and Clank          4
+    Kirby                      4
+    Call of Duty               4
+    Guitar Hero                3
+    Grand Theft Auto           3
+    Jak and Daxter             3
+    Star Wars                  3
+    Fallout                    3
+    Bioshock                   3
+    Battlefield                3
+    Super Smash Bros           3
+    Infamous                   3
+    Danganronpa                3
+    Elder Scrolls              2
+    Sonic                      2
+    Smash Bros                 2
+    Simpsons                   2
+    Batman: Arkham             2
+    Portal                     2
+
+<img class="col three" src="/img/graphs/output_14_1.png">
+
+
+# Developer
+
+    Nintendo                 19
+    Intelligent Systems      10
+    Naughty Dog               7
+    Ubisoft                   6
+    Capcom                    6
+    Bethesda                  6
+    Rockstar                  6
+    HAL Laboratory            6
+    EA                        5
+    Spike Chunsoft            5
+    Insomniac Games           4
+    Game Freak                4
+    2k                        3
+    Genius Sonority           3
+    Sora Limited              3
+    Sucker Punch              3
+    Pandemic Studios          2
+    Rocksteady                2
+    Treyarch                  2
+    Sonic Team                2
+    Valve                     2
+    Infinity Ward             2
+    Neversoft                 2
+
+
+<img class="col three" src="/img/graphs/output_17_1.png">
+
+<img class="col three" src="/img/graphs/output_18_1.png">
+
+
+# Tier
+
+<img class="col three" src="/img/graphs/output_20_1.png">
+
+
+# Average Tier per Genre
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>genre</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Action RPG</th>
+      <td>7</td>
+      <td>5.285714</td>
+      <td>1.112697</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>3D Platformer</th>
+      <td>7</td>
+      <td>4.857143</td>
+      <td>1.573592</td>
+      <td>6.0</td>
+      <td>2</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>RPG</th>
+      <td>9</td>
+      <td>4.777778</td>
+      <td>1.394433</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Puzzle Platformer</th>
+      <td>3</td>
+      <td>4.666667</td>
+      <td>1.527525</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Tactical RPG</th>
+      <td>9</td>
+      <td>4.555556</td>
+      <td>1.509231</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Action Adventure</th>
+      <td>24</td>
+      <td>4.333333</td>
+      <td>1.857222</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Visual Novel</th>
+      <td>11</td>
+      <td>4.272727</td>
+      <td>1.009050</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2D Platformer</th>
+      <td>3</td>
+      <td>4.000000</td>
+      <td>0.000000</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Platform Fighter</th>
+      <td>5</td>
+      <td>4.000000</td>
+      <td>1.581139</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Stealth Action Adventure</th>
+      <td>8</td>
+      <td>4.000000</td>
+      <td>1.069045</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>FPS</th>
+      <td>15</td>
+      <td>3.933333</td>
+      <td>1.791514</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Action Platformer</th>
+      <td>8</td>
+      <td>3.500000</td>
+      <td>0.755929</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Rhythm</th>
+      <td>3</td>
+      <td>2.666667</td>
+      <td>1.154701</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Racing</th>
+      <td>6</td>
+      <td>2.333333</td>
+      <td>0.816497</td>
+      <td>2.5</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Strategy</th>
+      <td>3</td>
+      <td>1.333333</td>
+      <td>0.577350</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+# Average Tier per Platform
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>platform</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Switch</th>
+      <td>4</td>
+      <td>5.000000</td>
+      <td>2.708013</td>
+      <td>6.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>PS4</th>
+      <td>7</td>
+      <td>4.857143</td>
+      <td>1.676163</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>WiiU</th>
+      <td>3</td>
+      <td>4.666667</td>
+      <td>2.081666</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>GBA</th>
+      <td>6</td>
+      <td>4.500000</td>
+      <td>0.547723</td>
+      <td>4.5</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>3DS</th>
+      <td>4</td>
+      <td>4.250000</td>
+      <td>0.957427</td>
+      <td>4.5</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>PC</th>
+      <td>13</td>
+      <td>4.230769</td>
+      <td>1.165751</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>PS3</th>
+      <td>30</td>
+      <td>4.200000</td>
+      <td>1.689726</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Wii</th>
+      <td>10</td>
+      <td>3.900000</td>
+      <td>1.969207</td>
+      <td>3.5</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>N64</th>
+      <td>8</td>
+      <td>3.750000</td>
+      <td>2.492847</td>
+      <td>2.5</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>GC</th>
+      <td>17</td>
+      <td>3.705882</td>
+      <td>1.490164</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>DS</th>
+      <td>12</td>
+      <td>3.666667</td>
+      <td>1.370689</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>PS2</th>
+      <td>13</td>
+      <td>3.307692</td>
+      <td>0.947331</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+# Average Tier per Release Date
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>release_date</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>(1995, 2000]</th>
+      <td>8</td>
+      <td>3.750000</td>
+      <td>2.492847</td>
+      <td>2.5</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>(2000, 2005]</th>
+      <td>37</td>
+      <td>3.837838</td>
+      <td>1.280484</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>(2005, 2010]</th>
+      <td>42</td>
+      <td>3.952381</td>
+      <td>1.652085</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>(2010, 2015]</th>
+      <td>28</td>
+      <td>4.000000</td>
+      <td>1.414214</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>(2015, 2020]</th>
+      <td>12</td>
+      <td>5.166667</td>
+      <td>1.749459</td>
+      <td>5.5</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>release_date</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1996</th>
+      <td>1</td>
+      <td>6.000000</td>
+      <td>NaN</td>
+      <td>6.0</td>
+      <td>6</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>1997</th>
+      <td>2</td>
+      <td>2.500000</td>
+      <td>0.707107</td>
+      <td>2.5</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1998</th>
+      <td>1</td>
+      <td>7.000000</td>
+      <td>NaN</td>
+      <td>7.0</td>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>1999</th>
+      <td>2</td>
+      <td>1.500000</td>
+      <td>0.707107</td>
+      <td>1.5</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2000</th>
+      <td>2</td>
+      <td>4.500000</td>
+      <td>3.535534</td>
+      <td>4.5</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2001</th>
+      <td>4</td>
+      <td>3.750000</td>
+      <td>1.892969</td>
+      <td>4.5</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2002</th>
+      <td>10</td>
+      <td>4.300000</td>
+      <td>1.337494</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2003</th>
+      <td>11</td>
+      <td>3.272727</td>
+      <td>1.272078</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2004</th>
+      <td>9</td>
+      <td>4.111111</td>
+      <td>1.054093</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>2005</th>
+      <td>3</td>
+      <td>3.666667</td>
+      <td>0.577350</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2006</th>
+      <td>6</td>
+      <td>3.833333</td>
+      <td>2.041241</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>2007</th>
+      <td>12</td>
+      <td>3.916667</td>
+      <td>2.108784</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2008</th>
+      <td>10</td>
+      <td>3.000000</td>
+      <td>1.154701</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2009</th>
+      <td>6</td>
+      <td>4.166667</td>
+      <td>0.752773</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2010</th>
+      <td>8</td>
+      <td>5.125000</td>
+      <td>0.991031</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2011</th>
+      <td>11</td>
+      <td>4.181818</td>
+      <td>1.470930</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2012</th>
+      <td>6</td>
+      <td>3.666667</td>
+      <td>1.032796</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2013</th>
+      <td>5</td>
+      <td>4.600000</td>
+      <td>2.073644</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2014</th>
+      <td>3</td>
+      <td>3.000000</td>
+      <td>1.000000</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2015</th>
+      <td>3</td>
+      <td>4.000000</td>
+      <td>1.000000</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2016</th>
+      <td>3</td>
+      <td>4.333333</td>
+      <td>0.577350</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>2017</th>
+      <td>4</td>
+      <td>4.750000</td>
+      <td>2.629956</td>
+      <td>5.5</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2018</th>
+      <td>3</td>
+      <td>5.333333</td>
+      <td>1.154701</td>
+      <td>6.0</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>2019</th>
+      <td>1</td>
+      <td>7.000000</td>
+      <td>NaN</td>
+      <td>7.0</td>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2020</th>
+      <td>1</td>
+      <td>7.000000</td>
+      <td>NaN</td>
+      <td>7.0</td>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+# Average Tier per Series
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>series</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bioshock</th>
+      <td>3</td>
+      <td>6.666667</td>
+      <td>0.577350</td>
+      <td>7.0</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Super Mario</th>
+      <td>5</td>
+      <td>5.600000</td>
+      <td>0.894427</td>
+      <td>6.0</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Legend of Zelda</th>
+      <td>8</td>
+      <td>5.500000</td>
+      <td>1.851640</td>
+      <td>6.5</td>
+      <td>3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Danganronpa</th>
+      <td>3</td>
+      <td>5.000000</td>
+      <td>0.000000</td>
+      <td>5.0</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Fallout</th>
+      <td>3</td>
+      <td>4.666667</td>
+      <td>0.577350</td>
+      <td>5.0</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Grand Theft Auto</th>
+      <td>3</td>
+      <td>4.666667</td>
+      <td>1.154701</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Fire Emblem</th>
+      <td>9</td>
+      <td>4.555556</td>
+      <td>1.509231</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Ace Attorney</th>
+      <td>5</td>
+      <td>4.400000</td>
+      <td>0.894427</td>
+      <td>5.0</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Super Smash Bros</th>
+      <td>3</td>
+      <td>4.000000</td>
+      <td>1.000000</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Ratchet and Clank</th>
+      <td>4</td>
+      <td>4.000000</td>
+      <td>0.000000</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Pokemon</th>
+      <td>5</td>
+      <td>3.800000</td>
+      <td>1.923538</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Assassin's Creed</th>
+      <td>5</td>
+      <td>3.800000</td>
+      <td>1.303840</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Kirby</th>
+      <td>4</td>
+      <td>3.500000</td>
+      <td>1.000000</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Jak and Daxter</th>
+      <td>3</td>
+      <td>3.333333</td>
+      <td>0.577350</td>
+      <td>3.0</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Infamous</th>
+      <td>3</td>
+      <td>3.333333</td>
+      <td>1.154701</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Call of Duty</th>
+      <td>4</td>
+      <td>3.250000</td>
+      <td>1.500000</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Star Wars</th>
+      <td>3</td>
+      <td>3.000000</td>
+      <td>1.000000</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Battlefield</th>
+      <td>3</td>
+      <td>3.000000</td>
+      <td>2.000000</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Uncharted</th>
+      <td>4</td>
+      <td>3.000000</td>
+      <td>1.632993</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Guitar Hero</th>
+      <td>3</td>
+      <td>2.666667</td>
+      <td>1.154701</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Mario Kart</th>
+      <td>4</td>
+      <td>2.250000</td>
+      <td>0.957427</td>
+      <td>2.5</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>Pokemon Stadium</th>
+      <td>5</td>
+      <td>2.200000</td>
+      <td>1.303840</td>
+      <td>2.0</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+# Average Tier per Developer
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>developer</th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>median</th>
+      <th>amin</th>
+      <th>amax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2k</th>
+      <td>3</td>
+      <td>6.666667</td>
+      <td>0.577350</td>
+      <td>7.0</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Rockstar</th>
+      <td>6</td>
+      <td>5.000000</td>
+      <td>1.264911</td>
+      <td>4.5</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Bethesda</th>
+      <td>6</td>
+      <td>4.833333</td>
+      <td>1.169045</td>
+      <td>4.5</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Intelligent Systems</th>
+      <td>10</td>
+      <td>4.700000</td>
+      <td>1.494434</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Game Freak</th>
+      <td>4</td>
+      <td>4.500000</td>
+      <td>1.290994</td>
+      <td>4.5</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Nintendo</th>
+      <td>19</td>
+      <td>4.368421</td>
+      <td>2.165654</td>
+      <td>4.0</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Capcom</th>
+      <td>6</td>
+      <td>4.333333</td>
+      <td>0.816497</td>
+      <td>4.5</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Sora Limited</th>
+      <td>3</td>
+      <td>4.333333</td>
+      <td>1.527525</td>
+      <td>4.0</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>Insomniac Games</th>
+      <td>4</td>
+      <td>4.000000</td>
+      <td>0.000000</td>
+      <td>4.0</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Spike Chunsoft</th>
+      <td>5</td>
+      <td>4.000000</td>
+      <td>1.732051</td>
+      <td>5.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Ubisoft</th>
+      <td>6</td>
+      <td>3.833333</td>
+      <td>1.169045</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>HAL Laboratory</th>
+      <td>6</td>
+      <td>3.500000</td>
+      <td>1.224745</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Sucker Punch</th>
+      <td>3</td>
+      <td>3.333333</td>
+      <td>1.154701</td>
+      <td>4.0</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>Naughty Dog</th>
+      <td>7</td>
+      <td>3.142857</td>
+      <td>1.214986</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Genius Sonority</th>
+      <td>3</td>
+      <td>2.666667</td>
+      <td>1.527525</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>EA</th>
+      <td>5</td>
+      <td>2.600000</td>
+      <td>1.673320</td>
+      <td>3.0</td>
+      <td>1</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
